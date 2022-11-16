@@ -1,31 +1,16 @@
-# flutter-training/mivakhnenko-training
+# hi_flutter
 
-
+A new Flutter project.
 
 ## Getting Started
 
-Download links:
+This project is a starting point for a Flutter application.
 
-SSH clone URL: ssh://git@git.jetbrains.space/datamola/flutter-training/mivakhnenko-training.git
+A few resources to get you started if this is your first Flutter project:
 
-HTTPS clone URL: https://git.jetbrains.space/datamola/flutter-training/mivakhnenko-training.git
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-## Prerequisites
-
-What things you need to install the software and how to install them.
-
-```
-Examples
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a production system.
-
-## Resources
-
-Add links to external resources for this project, such as CI server, bug tracker, etc.
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
