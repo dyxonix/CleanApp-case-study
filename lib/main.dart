@@ -1,16 +1,24 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  final numbers = <int>[1, 2, 3, 5, 6, 7];
-
-  print(numbers.firstWhereOrNull((element) => element > 9));
+  runApp(const MyApp());
 }
 
-extension IterableExtension<int> on List<int> {
-  int? firstWhereOrNull(bool ext(int element)) {
-    for (var element in this) {
-      if (ext(element)) return element;
-    }
-    return null;
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Welcome to Flutter',
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('Welcome to Flutter'),
+        ),
+        body: const Center(
+          child: Text('Hello World'),
+        ),
+      ),
+    );
   }
 }
