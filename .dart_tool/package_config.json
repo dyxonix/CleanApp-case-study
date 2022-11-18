@@ -56,22 +56,40 @@
       "languageVersion": "2.17"
     },
     {
-      "name": "flutter_svg",
-      "rootUri": "file:///Users/mariyaivahnneko/.pub-cache/hosted/pub.dartlang.org/flutter_svg-1.1.6",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
       "name": "flutter_test",
       "rootUri": "file:///Users/mariyaivahnneko/fvm/versions/3.3.4/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
+      "name": "flutter_web_plugins",
+      "rootUri": "file:///Users/mariyaivahnneko/fvm/versions/3.3.4/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "go_router",
+      "rootUri": "file:///Users/mariyaivahnneko/.pub-cache/hosted/pub.dartlang.org/go_router-5.1.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "js",
+      "rootUri": "file:///Users/mariyaivahnneko/.pub-cache/hosted/pub.dartlang.org/js-0.6.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
       "name": "lints",
       "rootUri": "file:///Users/mariyaivahnneko/.pub-cache/hosted/pub.dartlang.org/lints-2.0.1",
       "packageUri": "lib/",
       "languageVersion": "2.17"
+    },
+    {
+      "name": "logging",
+      "rootUri": "file:///Users/mariyaivahnneko/.pub-cache/hosted/pub.dartlang.org/logging-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "matcher",
@@ -96,24 +114,6 @@
       "rootUri": "file:///Users/mariyaivahnneko/.pub-cache/hosted/pub.dartlang.org/path-1.8.2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
-    },
-    {
-      "name": "path_drawing",
-      "rootUri": "file:///Users/mariyaivahnneko/.pub-cache/hosted/pub.dartlang.org/path_drawing-1.0.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "path_parsing",
-      "rootUri": "file:///Users/mariyaivahnneko/.pub-cache/hosted/pub.dartlang.org/path_parsing-1.0.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "petitparser",
-      "rootUri": "file:///Users/mariyaivahnneko/.pub-cache/hosted/pub.dartlang.org/petitparser-5.1.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.18"
     },
     {
       "name": "sky_engine",
@@ -164,19 +164,13 @@
       "languageVersion": "2.14"
     },
     {
-      "name": "xml",
-      "rootUri": "file:///Users/mariyaivahnneko/.pub-cache/hosted/pub.dartlang.org/xml-6.1.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "hi_flutter",
+      "name": "task_app",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2022-11-18T08:53:04.393418Z",
+  "generated": "2022-11-18T13:20:07.308437Z",
   "generator": "pub",
   "generatorVersion": "2.18.2"
 }

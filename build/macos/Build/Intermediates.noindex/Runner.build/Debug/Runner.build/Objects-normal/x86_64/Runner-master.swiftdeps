@@ -1,8 +1,0 @@
-version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
-options: "d582801ebc700744d4e374e442047ddbfd36b47d6122950440765d53b76fd2b4"
-build_start_time: [1668712709, 335026025]
-build_end_time: [1668712709, 392746925]
-inputs:
-  "/Users/mariyaivahnneko/Desktop/dart task/styles/cleanappST/mivakhnenko-training/macos/Flutter/GeneratedPluginRegistrant.swift": !private [1668712699, 448126792]
-  "/Users/mariyaivahnneko/Desktop/dart task/styles/cleanappST/mivakhnenko-training/macos/Runner/AppDelegate.swift": !private [1668710250, 855522155]
-  "/Users/mariyaivahnneko/Desktop/dart task/styles/cleanappST/mivakhnenko-training/macos/Runner/MainFlutterWindow.swift": !private [1668710250, 862578868]

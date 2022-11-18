@@ -1,16 +1,16 @@
-# hi_flutter
+# Task repository
 
-A new Flutter project.
+## New task:
 
-## Getting Started
+To create a new task:
+1. add new route and path in *lib\constants\router.dart* file;
 
-This project is a starting point for a Flutter application.
+Route example:
 
-A few resources to get you started if this is your first Flutter project:
+        GoRoute(path: _AppRouterPaths.pathName, builder: (_, __) => const PageWidgetName()),
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. create a new page in the *features* folder (for example *lib\features\task_2\presentation\task_2_screen.dart*)
+
+
+

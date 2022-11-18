@@ -1,37 +1,20 @@
 import 'package:flutter/material.dart';
-import 'location/location_card.dart';
-import 'room/room_box.dart';
+import 'package:task_app/routing/router.dart';
 
-void main() {
-  runApp(const MyApp());
+Future<void> main() async {
+  runApp(const TaskApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class TaskApp extends StatelessWidget {
+  const TaskApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'CleanApp',
-      theme: ThemeData(
-        scaffoldBackgroundColor: const Color(0xFF332F55),
-      ),
-      home: Scaffold(
-        appBar: AppBar(),
-        body: Padding(
-          padding: const EdgeInsets.all(20),
-          child: Column(
-            children: const [
-              LocationCard(),
-              SizedBox(
-                height: 24,
-              ),
-              LocationCard(),
-              AddRoomBox(),
-            ],
-          ),
-        ),
-      ),
+    return MaterialApp.router(
+      title: 'Ng Tasks',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData.dark(),
+      routerConfig: AppRouter.router,
     );
   }
 }

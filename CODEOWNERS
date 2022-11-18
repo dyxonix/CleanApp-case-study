@@ -13,9 +13,13 @@
 # Bob owns all files under "subdir" directory at the repository root and all its subdirectories
 # /subdir/ Bob
 
+# All members from team named "Product Team" file under root "Product Documentation" directory
+# "/Product Documentation" "Product Team"
+
 # All members who are assigned the Project Collaborator role own any file under docs/ directory
 # anywhere in the repository, but not further nested files
 # docs/* "Project Collaborator"
 
 # This file itself is owned by members who are assigned the Project Admin role in this project.
 CODEOWNERS "Project Admin"
+``
