@@ -1,13 +1,25 @@
 import 'package:flutter/material.dart';
+import 'package:task_app/features/task_1/presentation/location/location_card.dart';
+import 'package:task_app/features/task_1/presentation/room/room_box.dart';
 
 class Task1Screen extends StatelessWidget {
   const Task1Screen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
-        child: Text('Task 1'),
+    return Scaffold(
+      body: Padding(
+        padding: const EdgeInsets.all(20),
+        child: Column(
+          children: const [
+            LocationCard(),
+            SizedBox(
+              height: 24,
+            ),
+            LocationCard(),
+            AddRoomBox(),
+          ],
+        ),
       ),
     );
   }
