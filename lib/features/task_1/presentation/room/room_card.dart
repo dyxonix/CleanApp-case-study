@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
 class RoomCard extends StatelessWidget {
-  const RoomCard({super.key});
+  final String actionTitle, photo;
 
+  const RoomCard({super.key, required this.actionTitle, required this.photo});
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -15,11 +16,12 @@ class RoomCard extends StatelessWidget {
       child: Column(
         children: [
           SvgPicture.asset(
-            'assets/images/Room.svg',
+            photo,
+            height: 120,
           ),
-          const Text(
-            "Добавить комнату",
-            style: TextStyle(
+          Text(
+            actionTitle,
+            style: const TextStyle(
               fontSize: 20,
               color: Color.fromARGB(255, 255, 255, 255),
             ),

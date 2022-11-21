@@ -1,23 +1,22 @@
 import 'package:flutter/material.dart';
 
 class LocationHeader extends StatelessWidget {
-  const LocationHeader({super.key});
+  final String headerTitle;
+
+  const LocationHeader({super.key, required this.headerTitle});
 
   @override
   Widget build(BuildContext context) {
     return Container(
       margin: const EdgeInsets.only(bottom: 16),
-      decoration: const BoxDecoration(
-        color: Color(0xFF3E3562),
-        borderRadius: BorderRadius.all(Radius.circular(20)),
-      ),
+      decoration: const BoxDecoration(),
       child: Row(
         mainAxisSize: MainAxisSize.max,
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          const Text(
-            'Кухня',
-            style: TextStyle(
+          Text(
+            headerTitle,
+            style: const TextStyle(
               fontSize: 22,
               color: Colors.white,
             ),

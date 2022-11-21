@@ -12,18 +12,32 @@ class Task1Screen extends StatelessWidget {
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
-            const LocationCard(),
+            const LocationCard(
+                locationTitle: 'Ванная',
+                time: 'Полчаса до чистоты',
+                numbers: ['1', '2', '3']),
             const SizedBox(height: 24),
-            const LocationCard(),
+            const LocationCard(
+                locationTitle: 'Спальня',
+                time: 'Нужна легкая уборка',
+                numbers: ['6', '6', '3']),
             const SizedBox(height: 24),
             Row(
               children: const [
-                Expanded(child: RoomCard()),
+                Expanded(
+                  child: RoomCard(
+                      actionTitle: 'Умная настройка',
+                      photo: 'assets/images/Lighter.svg'),
+                ),
                 SizedBox(
                   width: 24,
                   height: 24,
                 ),
-                Expanded(child: RoomCard()),
+                Expanded(
+                  child: RoomCard(
+                      actionTitle: 'Добавить комнату',
+                      photo: 'assets/images/Room.svg'),
+                ),
               ],
             )
           ],

@@ -3,7 +3,15 @@ import 'location_header.dart';
 import 'location_pins.dart';
 
 class LocationCard extends StatelessWidget {
-  const LocationCard({Key? key}) : super(key: key);
+  final String locationTitle, time;
+  final List<String> numbers;
+
+  const LocationCard(
+      {Key? key,
+      required this.time,
+      required this.locationTitle,
+      required this.numbers})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -15,23 +23,25 @@ class LocationCard extends StatelessWidget {
       ),
       child: Column(
         children: [
-          const LocationHeader(),
+          LocationHeader(headerTitle: locationTitle),
           Row(
-            children: const [
-              LocationPins(),
-              LocationPins(),
-              LocationPins(),
+            children: [
+              LocationPins(iconPin: Icons.replay, numberPins: numbers[0]),
+              LocationPins(
+                  iconPin: Icons.refresh_rounded, numberPins: numbers[1]),
+              LocationPins(
+                  iconPin: Icons.calendar_today_sharp, numberPins: numbers[2]),
               Expanded(
                 child: Text(
-                  'Полчаса до чистоты',
-                  style: TextStyle(
+                  time,
+                  style: const TextStyle(
                     fontSize: 14,
                     color: Colors.white,
                   ),
                 ),
-              )
+              ),
             ],
-          )
+          ),
         ],
       ),
     );

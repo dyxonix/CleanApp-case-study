@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 
 class LocationPins extends StatelessWidget {
-  const LocationPins({super.key});
+  final String numberPins;
+  final IconData iconPin;
+
+  const LocationPins(
+      {super.key, required this.iconPin, required this.numberPins});
 
   @override
   Widget build(BuildContext context) {
@@ -13,18 +17,22 @@ class LocationPins extends StatelessWidget {
           borderRadius: const BorderRadius.all(Radius.circular(8)),
           shape: BoxShape.rectangle),
       child: Row(
-        children: const [
+        children: [
+          Icon(
+            iconPin,
+            size: 16,
+            color: Colors.white,
+          ),
+          const SizedBox(
+            width: 4,
+            height: 4,
+          ),
           Text(
-            '1',
-            style: TextStyle(
+            numberPins,
+            style: const TextStyle(
               fontSize: 14,
               color: Color.fromARGB(255, 255, 255, 255),
             ),
-          ),
-          Icon(
-            Icons.replay,
-            size: 16,
-            color: Colors.white,
           ),
         ],
       ),
