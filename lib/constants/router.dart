@@ -18,9 +18,9 @@ abstract class AppRouterConstants {
           ),
         ),
         GoRoute(
-          path: AppRouterPaths.task2Dinamic,
+          path: AppRouterPaths.task2Dynamic,
           builder: (_, __) => const Task2Screen(
-            type: Task2ScreenType.dinamic,
+            type: Task2ScreenType.dynamic,
           ),
         ),
       ];
@@ -29,5 +29,5 @@ abstract class AppRouterConstants {
 abstract class AppRouterPaths {
   static const String task1 = '/task1';
   static const String task2Static = '/task2/static';
-  static const String task2Dinamic = '/task2/dinamic';
+  static const String task2Dynamic = '/task2/dynamic';
 }
