@@ -6,11 +6,10 @@ class AppRouter {
   static GoRouter get router => GoRouter(
         routes: [
           ShellRoute(
-              builder: (context, state, child) => AppScaffold(child: child),
-              routes: AppRouterConstants.routes),
+            builder: (context, state, child) => AppScaffold(child: child),
+            routes: AppRouterConstants.routes,
+          ),
         ],
-        initialLocation: AppRouterConstants.routes.isNotEmpty
-            ? AppRouterConstants.routes.first.path
-            : null,
+        initialLocation: AppRouterPaths.task2Static,
       );
 }
