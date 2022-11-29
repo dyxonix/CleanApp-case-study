@@ -44,22 +44,22 @@ class Task2Screen extends StatelessWidget {
                 ),
                 Row(
                   children: const [
-                    Expanded(
-                      child: RoomCard(
-                        actionTitle: 'Умная настройка',
-                        photo: 'assets/images/Lighter.svg',
-                      ),
-                    ),
-                    SizedBox(
-                      width: 24,
-                      height: 24,
-                    ),
-                    Expanded(
-                      child: RoomCard(
-                        actionTitle: 'Добавить комнату',
-                        photo: 'assets/images/Room.svg',
-                      ),
-                    ),
+                    // Expanded(
+                    //   child: RoomCard(
+                    //     actionTitle: 'Умная настройка',
+                    //     photo: 'assets/images/Lighter.svg',
+                    //   ),
+                    // ),
+                    // SizedBox(
+                    //   width: 24,
+                    //   height: 24,
+                    // ),
+                    // Expanded(
+                    //   child: RoomCard(
+                    //     actionTitle: 'Добавить комнату',
+                    //     photo: 'assets/images/Room.svg',
+                    //   ),
+                    // ),
                   ],
                 ),
               ],
@@ -98,22 +98,22 @@ class Task2Screen extends StatelessWidget {
                 ),
                 Row(
                   children: const [
-                    Expanded(
-                      child: RoomCard(
-                        actionTitle: 'Умная настройка',
-                        photo: 'assets/images/Lighter.svg',
-                      ),
-                    ),
-                    SizedBox(
-                      width: 24,
-                      height: 24,
-                    ),
-                    Expanded(
-                      child: RoomCard(
-                        actionTitle: 'Добавить комнату',
-                        photo: 'assets/images/Room.svg',
-                      ),
-                    ),
+                    // Expanded(
+                    //   child: RoomCard(
+                    //     actionTitle: 'Умная настройка',
+                    //     photo: 'assets/images/Lighter.svg',
+                    //   ),
+                    // ),
+                    // SizedBox(
+                    //   width: 24,
+                    //   height: 24,
+                    // ),
+                    // Expanded(
+                    //   child: RoomCard(
+                    //     actionTitle: 'Добавить комнату',
+                    //     photo: 'assets/images/Room.svg',
+                    //   ),
+                    // ),
                   ],
                 )
               ],

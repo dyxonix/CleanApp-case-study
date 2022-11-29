@@ -4,7 +4,11 @@ import 'package:flutter_svg/svg.dart';
 class RoomCard extends StatelessWidget {
   final String actionTitle, photo;
 
-  const RoomCard({super.key, required this.actionTitle, required this.photo});
+  const RoomCard(
+      {super.key,
+      required this.actionTitle,
+      required this.photo,
+      required void Function() onPressed});
   @override
   Widget build(BuildContext context) {
     return Container(
