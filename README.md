@@ -1,16 +1,10 @@
-# Task repository
+# My house part repository
 
-## New task:
+<p>
+<img src="https://im.wampi.ru/2023/03/06/logo.png" alt="CleanApp">
+</p>
 
-To create a new task:
-1. add new route and path in *lib\constants\router.dart* file;
+## About
 
-Route example:
-
-        GoRoute(path: _AppRouterPaths.pathName, builder: (_, __) => const PageWidgetName()),
-
-
-2. create a new page in the *features* folder (for example *lib\features\task_2\presentation\task_2_screen.dart*)
-
-
-
+The user has chosen an apartment, he sees standard rooms and tasks in them, so he immediately gets the opportunity to start solving his problems without a long setup beforehand. Added action cards.
+Add a room - duplicates the button in the lower right corner, because this is the main action at the beginning - to create everything you need.
